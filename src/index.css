@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+.border{
+  border:2px solid red;
+}
+
+.bg-black{
+  background-color: black;
+  color:white;
+}
+
+a{
+    text-decoration: none;
+    text-transform: none;
+    color: inherit;
+    transition:color 0.3s ease;
+  
+}
+
+a:hover{
+  color: rgb(109, 109, 230);
+}
+
+.bebas{
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.robo{
+  font-family: 'Roboto Mono', sans-serif;
+}

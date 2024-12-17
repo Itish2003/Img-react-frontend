@@ -1,0 +1,20 @@
+body {
+    background: #1D2B64; /* Fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F8CDDA, #1D2B64); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F8CDDA, #1D2B64); /* Modern browsers */
+}
+
+.landing-container {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 4rem;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2rem;
+    padding-bottom:2em;
+
+    @media screen and (max-width: 428px) {
+        flex-flow: column nowrap;
+        gap: 2rem; /* Consolidated smaller gaps for all screens <= 428px */
+    }
+}

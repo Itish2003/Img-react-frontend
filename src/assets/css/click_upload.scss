@@ -1,0 +1,65 @@
+/* From Uiverse.io by csemszepp */ 
+
+.custom-file-upload {
+    max-height: 12.5rem;
+    max-width: 18.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #e8e8e8;
+    background-color: #212121;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 48px 35px -48px #e8e8e8;
+  }
+  
+  .custom-file-upload .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .custom-file-upload .icon svg {
+    height: 5rem;
+    fill: #e8e8e8;
+  }
+  
+  .custom-file-upload .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .custom-file-upload .text span {
+    font-weight: 400;
+    color: #e8e8e8;
+  }
+  
+  .custom-file-upload input {
+    display: none;
+  }
+
+  .loading-text{
+    margin-top:1.25rem;
+    text-align: center;
+    font-size:clamp(0.5rem, -0.036rem + 1.429vw, 1.25rem);
+  }
+
+  .error{
+    margin-top:1.25rem;
+    text-align: center;
+    font-size:clamp(0.5rem, -0.036rem + 1.429vw, 1.25rem);
+
+  }
+
+  .upload-container{
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height:fit-content;
+  }
+  

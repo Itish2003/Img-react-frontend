@@ -1,0 +1,24 @@
+.h1 {
+    font-weight: 700;
+    font-size: clamp(1rem, -2.571rem + 9.524vw, 6rem);
+}
+
+.landing-text {
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 60%;
+    gap: 0.5rem;
+
+    @media screen and (max-width: 428px) {
+        max-width: 90%;
+        gap: 0.5rem; // Standardized gap for smaller screens
+    }
+}
+
+.intro-content {
+    font-size: clamp(0.5rem, -0.214rem + 1.905vw, 1.5rem);
+
+    @media screen and (max-width: 428px) {
+        font-size: clamp(0.4rem, -0.743rem + 3.048vw, 2rem); // Consolidated small-screen rules
+    }
+}

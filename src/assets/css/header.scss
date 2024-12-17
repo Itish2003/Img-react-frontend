@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    font-size: clamp(1rem, -0.429rem + 3.81vw, 3rem);
+    font-family: 'Bebas Neue', sans-serif;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height:7vw;
+
+    @media screen and (max-width: 386px) {
+        flex-flow: column nowrap;
+        gap: 1rem; // Adjust gap for smaller screens
+        font-size: clamp(1.2rem, 1.5vw, 2rem); // Adjust font size
+        padding-left: 1rem;
+        padding-right: 1rem;
+        height:fit-content;
+    }
+}
+
+.site-name{
+    display: inherit;
+    font-family: "Agu Display", serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-options{
+    display:inherit;
+    gap: 1em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}

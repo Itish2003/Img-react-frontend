@@ -1,0 +1,37 @@
+.container{
+    height:50vw;
+    width:100%;
+    /* border:2px red solid; */
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:1rem;
+
+    @media screen and (max-width:644px) {
+        height:fit-content;
+        padding-top:2rem;
+        flex-flow:column nowrap;
+    }
+    
+}
+
+.small{
+    font-size: clamp(0.4rem, -1.457rem + 4.952vw, 3rem);
+    @media screen and (max-width: 428px) {
+        font-size: clamp(0.4rem, -0.743rem + 3.048vw, 2rem); // Consolidated small-screen rules
+    }
+}
+
+.cont-text{
+    max-width:58%;
+}
+
+.h1{
+    font-size:clamp(1rem, -1.857rem + 7.619vw, 5rem);
+}
+
+.upload-icon{
+    margin-top:50px;
+}
+
