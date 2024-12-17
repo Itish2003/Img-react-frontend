@@ -17,7 +17,7 @@
 }
 
 .small{
-    font-size: clamp(0.4rem, -1.457rem + 4.952vw, 3rem);
+    font-size: clamp(0.4rem, -0.743rem + 3.048vw, 2rem);
     @media screen and (max-width: 428px) {
         font-size: clamp(0.4rem, -0.743rem + 3.048vw, 2rem); // Consolidated small-screen rules
     }
